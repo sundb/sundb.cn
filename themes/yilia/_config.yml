@@ -28,7 +28,7 @@ open_in_new: false
 
 # 打赏
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
-reward_type: 2
+reward_type: 0
 # 打赏wording
 reward_wording: '谢谢你请我吃糖果'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
@@ -72,7 +72,7 @@ changyan_appid: false
 changyan_conf: false
 
 #4、Disqus 在hexo根目录的config里也有disqus_shortname字段，优先使用yilia的
-disqus: true
+disqus: false
 
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
